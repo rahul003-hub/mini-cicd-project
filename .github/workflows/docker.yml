@@ -19,7 +19,9 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build the Docker image
-      run: docker build -t rahulbsetec/mini-cicd-project .
+      run: docker build -t rahulhub1313/mini-cicd-project .
 
     - name: Push the Docker image
-      run: docker push rahulbsetec/mini-cicd-project
+      run: docker push rahulhub1313/mini-cicd-project
+
+
